@@ -1,0 +1,14 @@
+# Ignorar datos y configuraciones locales de Docker
+docker/postgres_data/
+docker/pgadmin_data/
+docker/volumes/
+
+# Archivos y carpetas del sistema
+__pycache__/
+*.pyc
+.env
+.env.local
+*.log
+
+# Archivos de Node.js
+node_modules/
